@@ -6,7 +6,7 @@
 
 This healthcare analytics project uses SQL queries to explore various use cases such as patient volumes, emergency room throughput, and procedures.
 
-The sample data is generated from Synthea and not associated with a specific electronic healthcare record platform. This data is not reflective of any current or past performance or clinical data for any patient, health system, insurance provider, or any other entity. All data is fake and made available for educational purposes only.
+The sample data is not associated with a specific electronic healthcare record platform. This data is not reflective of any current or past performance or clinical data for any patient, health system, insurance provider, or any other entity. 
 
 In this project first of all I look at volumes, which give an idea of how much activity is going on with the healthcare system and help identify opportunities for growth or where further support might be needed.
 
