@@ -1,12 +1,7 @@
 
-![Healthcare Dashboard Preview](<img width="1280" height="720" alt="1726089621798" src="https://github.com/user-attachments/assets/a060a03f-0076-496c-bbfa-d4c44dce8a7b" />
-)
-
-
-
-
 # 🩺 Healthcare Analytics using SQL and Tableau
 
+![Healthcare Data Analysis Banner](https://github.com/yourusername/Healthcare-Analytics-SQL-Tableau/blob/main/5d8339bd-cdbd-45b4-9b52-beb02b399bfc.png)
 ---
 
 This healthcare analytics project uses SQL queries to explore various use cases such as patient volumes, emergency room throughput, and procedures.
