@@ -70,9 +70,7 @@ Which race had the highest total number of patients with a BP of 140/90 before 2
 
 In this healthcare analytics project, I build some dashoboards in tableau for flu shots, emergency room visits, and encounters.
 
-[Link Text](https://public.tableau.com/views/Flu_shots_dashboard_analysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-
+[https://public.tableau.com/views/Flu_shots_dashboard_analysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
 
 Which race had the highest percentage of blood pressure readings that were above 140/90 and taken before 2020?
 In this healthcare analytics project, I build some dashoboards in tableau for flu shots, emergency room visits, and encounters.
