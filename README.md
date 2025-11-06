@@ -1,4 +1,3 @@
-# Healthcare-Trends-Analysis-SQL-Tableau
 # 🩺 Healthcare Analytics using SQL and Tableau
 
 ---
