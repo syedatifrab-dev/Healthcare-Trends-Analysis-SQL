@@ -1,5 +1,5 @@
 
-# 🩺 Healthcare Analytics using SQL and Tableau
+# 🩺 Healthcare Analytics using SQL 
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/3cc56bc8-4514-4e4d-a103-fffe6e5d8804" />
 ---
