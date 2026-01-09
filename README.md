@@ -69,9 +69,7 @@ What was the most commonly prescribed medication to the patients with hypertensi
 Which race had the highest total number of patients with a BP of 140/90 before 2020?
 
 
-In this healthcare analytics project, I build some dashoboards in tableau for flu shots, emergency room visits, and encounters.
 
-🔗 **Tableau Dashboard:** [Click to View Interactive Dashboard](https://public.tableau.com/views/Flu_shots_dashboard_analysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 
