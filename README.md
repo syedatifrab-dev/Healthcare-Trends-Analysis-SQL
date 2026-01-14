@@ -4,69 +4,79 @@
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/3cc56bc8-4514-4e4d-a103-fffe6e5d8804" />
 ---
 
-This healthcare analytics project uses SQL queries to explore various use cases such as patient volumes, emergency room throughput, and procedures.
+# 📌 Project Overview
 
-The sample data is not associated with a specific electronic healthcare record platform. This data is not reflective of any current or past performance or clinical data for any patient, health system, insurance provider, or any other entity. 
+This project simulates a real-world healthcare analytics database and demonstrates how SQL can be used to analyze clinical outcomes, provider activity, and medication usage.
 
-In this project first of all I look at volumes, which give an idea of how much activity is going on with the healthcare system and help identify opportunities for growth or where further support might be needed.
+The focus is on identifying patients with uncontrolled hypertension using blood pressure (BP) vitals, analyzing treatment patterns, and exploring demographic disparities across race groups.
 
-Sample questions:
+The dataset spans 2018–2019 and includes patient demographics, encounters, clinical events, vitals, procedures, and medications.
 
-How many encounters did we have before the year 2020?
-How many distinct patients did we treat before the year 2020?
-How many distinct encounter classes are documented?
-How many inpatient/ ambulatory encounters did we have before the year 2020?
-Then I look at who our patients are.
+# 🧠 Business & Clinical Questions Answered
 
-Sample questions:
+-How many patients had uncontrolled hypertension (≥140/90) in 2018–2019?
 
-What is our patient mix by gender, race and ethnicity?
-What about age?
-How many states and zip codes do we treat patients from?
-Which state, zip, and county do we treat the most patients from?
-What is our patient mix for patients who had an inpatient encounter in 2019?
-How many inpatient encounters did we have in the entire dataset where the patient was at least 21 years old at the time of the encounter start?
-Next, I'd like to know what is happening in the ER. I check ER throughput (a key indicator of volume, patient access, and system’s ability to support its community).
+-Which providers treated the most hypertensive patients?
 
-Sample questions:
+-What medications were most commonly prescribed to hypertensive patients?
 
-How many emergency encounters did we have in 2019?
-What conditions were treated in those encounters?
-What was the emergency throughput and how did that vary by condition treated?
-How many emergency encounters did we have before 2020?
-Which condition was most documented for emergency encounters before 2020?
-How many conditions for emergency encounters before 2020 had average ER throughputs above 100 minutes?
-Next, I want to see what cost of care looks like for our patients. Because cost of care varies by many factors including care received and healthcare insurance coverage. The financial impact of these costs can significantly affect each patient.
+-How would patient counts change using a lower BP threshold (≥135/85)?
 
-Sample questions:
+-Which race group had:
 
-What is total claim cost for each encounter in 2019?
-What is total payer coverage for each encounter in 2019?
-Which encounter types had the highest cost?
-Which encounter types had the highest cost covered by payers?
-Which payer had the highest claim coverage percentage (total payer coverage/ total claim cost) for ambulatory encounters before 2020?
-Then I look at what procedures we are performing. Many patient treatments may involve various procedures. Analyzing this information can help us identify what procedures are needed most to guide further expansion of support to meet evolving healthcare needs.
+-The highest number of hypertensive patients?
 
-Sample questions:
+-The highest percentage of elevated BP readings?
 
-How many different types of procedures did we perform in 2019?
-How many procedures were performed across each care setting (inpatient/ambulatory)?
-Which organizations performed the most inpatient procedures in 2019?
-How many Colonoscopy procedures were performed before 2020?
-Compare our total number of procedures in 2018 to 2019. Did we perform more procedures in 2019 or less?
-Which organizations performed the most Auscultation of the fetal heart procedures before 2020?
-Which race had the highest number of procedures done in 2019?
-Which race had the highest number of Colonoscopy procedures performed before 2020?
-Finally I want to look at blood pressure management. Blood pressure is a key indicator of cardiovascular health.
+-These questions mirror real healthcare use cases such as quality reporting, population health, and value-based care analytics.
 
-Sample questions:
 
-How many patients had documented uncontrolled hypertension at any time in 2018 and 2019?
-Which providers treated patients with uncontrolled hypertension in 2018 and 2019?
-What medications were given to patients with uncontrolled hypertension?
-If we used a lower cut off of 135/85 for hypertension than the 140/90 discussed in the lecture, how many patients would have been documented hypertension at any time across 2018 or 2019?
-What was the most commonly prescribed medication to the patients with hypertension (as identified as having a BP over 140/90 at any point in 2018 or 2019)?
-Which race had the highest total number of patients with a BP of 140/90 before 2020?
+# 🛠️ Tools & SQL Concepts Used
+
+MySQL
+
+Relational modeling with foreign keys
+
+WITH Common Table Expressions (CTEs)
+
+JOINs across multiple tables
+
+Date filtering (YEAR(), date comparisons)
+
+Conditional logic with COALESCE
+
+Aggregations (COUNT, SUM, GROUP BY)
+
+Percentage calculations
+
+Realistic healthcare thresholds (BP ≥140/90)
+
+# 👨‍💻 Skills Demonstrated
+
+Healthcare data modeling
+
+Clinical metrics analysis
+
+Population health SQL logic
+
+Data quality & realistic thresholds
+
+Analytical thinking for real-world scenarios
+
+
+# ✅ Key Insights (Sample)
+
+Multiple patients exhibited persistent uncontrolled hypertension
+
+Certain providers managed a higher concentration of hypertensive cases
+
+Antihypertensive medications (e.g., ACE inhibitors) were frequently administered
+
+Lowering BP thresholds significantly increased flagged patient counts
+
+Disparities were observed when analyzing BP metrics by race
+
+
 
 
 
